@@ -12,6 +12,7 @@ public class AlimentosEntity {
 
 
 
+
     public AlimentosEntity(String s, String equilibrio, String cachorro) {
 
     }
@@ -20,6 +21,10 @@ public class AlimentosEntity {
         this.codigo = codigo;
         this.nombre = nombre;
         this.tipo = tipo;
+    }
+
+    public AlimentosEntity() {
+
     }
 
     @Id

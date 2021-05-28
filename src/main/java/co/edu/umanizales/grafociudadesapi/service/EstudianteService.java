@@ -3,11 +3,13 @@ package co.edu.umanizales.grafociudadesapi.service;
 import co.edu.umanizales.grafociudadesapi.domain.model.Estudiante;
 import co.edu.umanizales.grafociudadesapi.domain.model.Universidad;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.List;
 
-
 @Component
+@Service
 public class  EstudianteService {
     private List<Estudiante> listado;
 

@@ -2,11 +2,15 @@ package co.edu.umanizales.grafociudadesapi.service;
 
 import co.edu.umanizales.grafociudadesapi.domain.entities.VacunaEntity;
 import co.edu.umanizales.grafociudadesapi.domain.entities.VeterinariaEntity;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
+@Service
 public class VacunaService implements Serializable
 {
     private List<VacunaEntity> vacunaList;

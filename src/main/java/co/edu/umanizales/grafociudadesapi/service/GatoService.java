@@ -3,11 +3,13 @@ package co.edu.umanizales.grafociudadesapi.service;
 import co.edu.umanizales.grafociudadesapi.domain.entities.GatoEntity;
 import co.edu.umanizales.grafociudadesapi.domain.entities.GatoEntity;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@Service
 public class GatoService {
     private List<GatoEntity> gatoList;
 

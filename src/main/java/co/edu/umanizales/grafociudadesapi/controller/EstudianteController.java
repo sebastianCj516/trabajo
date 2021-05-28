@@ -17,7 +17,8 @@ public class EstudianteController {
     private EstudianteService estudianteService;
 
     @Autowired
-    public EstudianteController(EstudianteService estudianteService) {
+    public EstudianteController(EstudianteService estudianteService)
+    {
         this.estudianteService = estudianteService;
     }
 

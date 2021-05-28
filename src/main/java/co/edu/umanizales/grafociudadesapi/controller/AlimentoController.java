@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
 @RestController
 @RequestMapping(path = "/alimento")
 @Validated
@@ -33,4 +34,5 @@ public class AlimentoController {
     {
         return alimentoService.adicionarAlimento(Alimento);
     }
+
 }

@@ -3,12 +3,14 @@ package co.edu.umanizales.grafociudadesapi.service;
 import co.edu.umanizales.grafociudadesapi.domain.entities.JugueteEntity;
 import co.edu.umanizales.grafociudadesapi.domain.entities.JugueteEntity;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Component
+@Service
 public class JugueteService implements Serializable
 {
     private List<JugueteEntity> jugueteList;
